@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Common Default Colors -->
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="gray">#B3AAAA</color>
+
+    <!-- Pre-game Default Button Colors -->
+    <color name="DefaultPurple">#FF6750A3</color>
+    <color name="BorderPurple">#4B0082</color>
+
+    <!-- Pre-game Text Colors -->
+    <color name="SkyBlue">#87CEEB</color>
+    <color name="BubblegumPink">#FFC0CB</color>
+    <color name="LavenderPurple">#E6E6FA</color>
+
+    <color name="BrightRed">#FF0000</color>
+    <color name="LighterBrightRed">#FF6666</color>
+    <color name="VibrantOrange">#FFA500</color>
+    <color name="SunnyYellow">#FFFF00</color>
+    <color name="LimeGreen">#00FF00</color>
+    <color name="AquaBlue">#00FFFF</color>
+
+    <!-- In-game Button Colors -->
+    <color name="PastelPink">#FFD1DC</color>
+    <color name="PastelBlue">#AEC6CF</color>
+    <color name="PastelGreen">#B0E57C</color>
+    <color name="PastelYellow">#FFFACD</color>
+    <color name="PastelPurple">#B19CD9</color>
+    <color name="PastelPeach">#FFDAB9</color>
+    <color name="PastelTurquoise">#AFEEEE</color>
+    <color name="PastelLavender">#E6E6FA</color>
+    <color name="PastelOrange">#FFE4B5</color>
+    <color name="PastelMint">#98FB98</color>
+
+    <!-- In-game Button Border Colors -->
+    <color name="DarkerPastelPink">#FFB6C1</color>
+    <color name="DarkerPastelBlue">#8DB6CD</color>
+    <color name="DarkerPastelGreen">#9ACD32</color>
+    <color name="DarkerPastelYellow">#FFFFE0</color>
+    <color name="DarkerPastelPurple">#9370DB</color>
+    <color name="DarkerPastelPeach">#FFB6A6</color>
+    <color name="DarkerPastelTurquoise">#00CED1</color>
+    <color name="DarkerPastelLavender">#D8BFD8</color>
+    <color name="DarkerPastelOrange">#FFDAB9</color>
+    <color name="DarkerPastelMint">#7CFC00</color>
+
+</resources>

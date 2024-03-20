@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/app_background_edited_part_1"
+    android:gravity="center|center_vertical"
+    android:orientation="vertical"
+    tools:context=".ChooseGame">
+
+    <TextView
+        android:id="@+id/chooseGame"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/concertone_regular"
+        android:gravity="center"
+        android:padding="16dp"
+        android:text="@string/choose_game"
+        android:textColor="@color/LavenderPurple"
+        android:textIsSelectable="false"
+        android:textSize="45sp"
+        android:textStyle="bold" />
+
+    <!--Comparing Numbers Button-->
+    <Button
+        android:id="@+id/compareButton"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginHorizontal="70dp"
+        android:background="@drawable/menu_rounded_button"
+        android:fontFamily="@font/overlock_bold"
+        android:gravity="center"
+        android:text="@string/compare_game"
+        android:textColor="@color/SkyBlue"
+        android:textSize="24sp" />
+
+    <!--Ordering Numbers Button-->
+    <Button
+        android:id="@+id/orderButton"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginHorizontal="70dp"
+        android:background="@drawable/menu_rounded_button"
+        android:fontFamily="@font/overlock_bold"
+        android:text="@string/order_game"
+        android:textColor="@color/BubblegumPink"
+        android:textSize="24sp"
+        tools:ignore="MissingConstraints" />
+
+    <!--Composing Numbers Button-->
+    <Button
+        android:id="@+id/composeButton"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginHorizontal="70dp"
+        android:background="@drawable/menu_rounded_button"
+        android:fontFamily="@font/overlock_bold"
+        android:gravity="center"
+        android:text="@string/compose_game"
+        android:textColor="@color/PastelGreen"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/backButton"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginHorizontal="150dp"
+        android:background="@drawable/menu_rounded_button"
+        android:fontFamily="@font/overlock_bold"
+        android:gravity="center"
+        android:text="@string/back_to_main"
+        android:textColor="@color/black"
+        android:textSize="24sp" />
+
+</LinearLayout>

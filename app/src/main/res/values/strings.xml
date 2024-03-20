@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Individual Assignment 2004035</string>
+    <string name="welcome">Welcome to Maths Game!</string>
+    <string name="choose_game">Choose a Game Mode</string>
+    <string name="compare_game">Compare Numbers</string>
+    <string name="order_game">Arrange Numbers</string>
+    <string name="compose_game">Compose Numbers</string>
+    <string name="how_to_play">How to Play</string>
+    <string name="play_game">Lets Play!</string>
+    <string name="exit_game">Exit</string>
+    <string name="back_to_choose">Lets choose a game!</string>
+    <string name="back_to_main">Back</string>
+    <string name="check_answer">Check Answer</string>
+    <string name="next_question">Next Question</string>
+    <string name="exit_game_mode">Exit Game Mode</string>
+</resources>
