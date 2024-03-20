@@ -19,7 +19,6 @@ public class ChooseGame extends AppCompatActivity {
         compareButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                // Redirect to activity_compare_numbers.xml
                 Intent intent = new Intent(ChooseGame.this, CompareNumbers.class);
                 startActivity(intent);
             }
@@ -30,7 +29,6 @@ public class ChooseGame extends AppCompatActivity {
         orderButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                // Redirect to activity_order_numbers.xml
                 Intent intent = new Intent(ChooseGame.this, OrderNumbers.class);
                 startActivity(intent);
             }
@@ -41,7 +39,6 @@ public class ChooseGame extends AppCompatActivity {
         composeButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                // Redirect to activity_compose_numbers.xml
                 Intent intent = new Intent(ChooseGame.this, ComposeNumbers.class);
                 startActivity(intent);
             }
@@ -52,7 +49,6 @@ public class ChooseGame extends AppCompatActivity {
         backButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                // Return to the main page
                 Intent intent = new Intent(ChooseGame.this, MainActivity.class);
                 startActivity(intent);
                 finish();

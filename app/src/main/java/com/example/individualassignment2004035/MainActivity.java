@@ -19,7 +19,6 @@ public class MainActivity extends AppCompatActivity {
         playBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                // Redirect to activity_choose_game.xml
                 Intent intent = new Intent(MainActivity.this, ChooseGame.class);
                 startActivity(intent);
             }
@@ -30,7 +29,6 @@ public class MainActivity extends AppCompatActivity {
         howToPlayBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                // Redirect to activity_how_to_play.xml
                 Intent intent = new Intent(MainActivity.this, HowToPlay.class);
                 startActivity(intent);
             }
@@ -41,7 +39,7 @@ public class MainActivity extends AppCompatActivity {
         exitBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                finishAffinity(); // Finish all activities in the stack
+                finishAffinity(); // Closes app, returns to home screen
             }
         });
     }

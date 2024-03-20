@@ -19,9 +19,9 @@ public class ComposeNumbers extends AppCompatActivity {
     private TextView equationTextView;
     private EditText firstNumberEditText;
     private EditText secondNumberEditText;
-    private Button checkAnswerButton;
-    private Button nextQuestionButton;
-    private Button exitButton;
+    private Button checkAnswerButton2;
+    private Button nextQuestionButton2;
+    private Button exitButton2;
 
     private int targetNumber;
     private Random random;
@@ -38,32 +38,32 @@ public class ComposeNumbers extends AppCompatActivity {
         equationTextView = findViewById(R.id.equationTextView);
         firstNumberEditText = findViewById(R.id.firstNumberEditText);
         secondNumberEditText = findViewById(R.id.secondNumberEditText);
-        checkAnswerButton = findViewById(R.id.checkAnswerButton2);
-        nextQuestionButton = findViewById(R.id.nextQuestionButton2);
-        exitButton = findViewById(R.id.exitButton2);
+        checkAnswerButton2 = findViewById(R.id.checkAnswerButton2);
+        nextQuestionButton2 = findViewById(R.id.nextQuestionButton2);
+        exitButton2 = findViewById(R.id.exitButton2);
 
-        // Initialize random
+        // Randomize
         random = new Random();
 
         // Generate the first question
         generateQuestion();
 
         // Set click listeners
-        checkAnswerButton.setOnClickListener(new View.OnClickListener() {
+        checkAnswerButton2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 checkAnswer();
             }
         });
 
-        nextQuestionButton.setOnClickListener(new View.OnClickListener() {
+        nextQuestionButton2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 generateQuestion();
             }
         });
 
-        exitButton.setOnClickListener(new View.OnClickListener() {
+        exitButton2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 finish();
@@ -89,6 +89,7 @@ public class ComposeNumbers extends AppCompatActivity {
         secondNumberEditText.setText("");
     }
 
+    // Check both user inputs
     private void checkAnswer() {
         // Get user input
         String firstNumberStr = firstNumberEditText.getText().toString();

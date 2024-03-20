@@ -19,7 +19,6 @@ public class HowToPlay extends AppCompatActivity {
         playBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                // Redirect to Choose Game activity
                 Intent intent = new Intent(HowToPlay.this, ChooseGame.class);
                 startActivity(intent);
             }

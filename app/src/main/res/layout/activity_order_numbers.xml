@@ -39,6 +39,7 @@
         android:id="@+id/numbersLayout"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:fontFamily="@font/concertone_regular"
         android:orientation="horizontal"
         android:layout_marginTop="16dp"/>
 
@@ -46,6 +47,7 @@
         android:id="@+id/answerLayout"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:fontFamily="@font/concertone_regular"
         android:orientation="horizontal"
         android:layout_marginTop="16dp"/>
 
@@ -60,7 +62,7 @@
         android:fontFamily="@font/overlock_bold"
         android:textColor="@color/black"
         android:layout_gravity="center"
-        android:onClick="onCheckAnswerClick2"
+        android:onClick="onCheckAnswerClick3"
         android:layout_marginTop="16dp"/>
 
     <Button
@@ -74,7 +76,7 @@
         android:fontFamily="@font/overlock_bold"
         android:textColor="@color/black"
         android:layout_gravity="center"
-        android:onClick="onNextClick2"
+        android:onClick="onNextClick3"
         android:layout_marginTop="16dp"/>
 
     <Button
@@ -88,6 +90,6 @@
         android:fontFamily="@font/overlock_bold"
         android:textColor="@color/black"
         android:layout_gravity="center"
-        android:onClick="onExitClick2"
+        android:onClick="onExitClick3"
         android:layout_marginTop="25dp"/>
 </LinearLayout>

@@ -27,7 +27,6 @@ public class CompareNumbers extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_compare_numbers);
 
-        // Initialize views
         compareTitle = findViewById(R.id.compareTitle);
         questionTextView = findViewById(R.id.questionTextView);
         numberButton1 = findViewById(R.id.numberButton1);
@@ -36,10 +35,10 @@ public class CompareNumbers extends AppCompatActivity {
         nextQuestionButton = findViewById(R.id.nextQuestionButton);
         exitButton = findViewById(R.id.exitButton);
 
-        // Initialize random
+        // Randomization
         random = new Random();
 
-        // Generate the first question
+        // Generate question
         generateQuestion();
 
         // Set click listeners
@@ -111,6 +110,7 @@ public class CompareNumbers extends AppCompatActivity {
         numberButton2.setEnabled(true);
     }
 
+    // Highlights the user's selected answer
     private void highlightSelectedButton(Button selectedButton) {
         // Reset button backgrounds
         numberButton1.setBackgroundResource(R.drawable.compare_selection_button);
@@ -119,6 +119,7 @@ public class CompareNumbers extends AppCompatActivity {
         selectedButton.setBackgroundResource(R.drawable.compare_selection_button_hightlighted);
     }
 
+    // Check user's answer input, shows red highlighted button as correct answer
     private void checkAnswer() {
         // Disable selection buttons
         numberButton1.setEnabled(false);
